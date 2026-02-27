@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: #FAB9C5;
+}
+
+.jet-navigator {
+  background-color: #FAB9C5;
+  height: 100dvh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;  
+  gap: 15px; /
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+
+article {
+  max-width: 85%;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.SCAN-QR-CODE {
+  width: 70vw;
+  max-width: 220px;
+  padding: 15px;
+  color: #E88C61;
+  border-radius: 20px;
+  font-size: 20px; 
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+button {
+  border: none;              
+  background-color: white; 
+  border-radius: 20px;
+  cursor: pointer;           
+  transition: transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+button:hover{
+  background-color: #F5EBED;
+  border-radius: 20px;
+}
+.center-img {
+  width: 40vw; 
+  max-width: 150px;  
+  height: auto;
+}
